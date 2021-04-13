@@ -10,15 +10,17 @@ import Contact from "./components/pages/Contact";
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/art" component={Art} />
-          <Route path="/dev" component={Dev} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </Router>
+      <div className="App">
+        <Router>
+          {/* <Navbar /> */}
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/art" component={Art} />
+            <Route path="/dev" component={Dev} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </Router>
+      </div>
     </>
   );
 }

@@ -26,7 +26,26 @@ function Navbar() {
 
   return (
     <>
-      {/* <nav className="navbar">
+      <nav className="navbar">
+        {/* <div class="container">
+        <div class="menu" tabindex="1">
+          <div class="list">
+            <span>Menu 1</span>
+            <span>Menu 2</span>
+            <span>Menu 3</span>
+          </div>
+          <div class="intro">
+            <div class="btn"></div>
+            <h1>menu</h1>
+          </div>
+        </div>
+      </div>
+      <a
+        class="me"
+        href="https://codepen.io/uzcho_/pens/popular/?grid_type=list"
+        target="_blank"
+      ></a> */}
+
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <i class="fab fa-typo3" />
@@ -69,7 +88,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-      </nav> */}
+      </nav>
     </>
   );
 }

@@ -9,10 +9,12 @@ function HeroSection() {
     <div className="hero-container">
       {/* <video src="/videos/video-1.mp4" autoPlay loop muted /> */}
       <h1>SARAH ROSSY</h1>
-      <div>
+      <div className="footer">
+        {/* <p> PAGE UNDER CONSTRUCTION </p> */}
         <p>• interdisciplinary artist • educator • web developer •</p>
+        <p>• sarahrossysings@gmail.com •</p>
       </div>
-      <div className="hero-btns">
+      {/* <div className="hero-btns">
         <Link to="/art">
           <Button
             className="btns"
@@ -31,7 +33,7 @@ function HeroSection() {
             dev
           </Button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
